@@ -1,0 +1,56 @@
+# Blender 3.1.0 MTL File: 'Sun-lounger-CYCLES.blend'
+# www.blender.org
+
+newmtl Sun_lounger_Fabric
+Ns 250.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+
+newmtl Sun_lounger_Leather
+Ns 25.309908
+Ka 1.000000 1.000000 1.000000
+Kd 0.015340 0.015340 0.015340
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+map_Ns  textures\Brown_leather_02_2K_Roughness.jpg
+
+newmtl Sun_lounger_Leather_suede
+Ns 39.999996
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+map_Kd  -o 0.05 0.05 0.05 textures\Suede_1K.jpg
+
+newmtl Sun_lounger_steel
+Ns 360.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.700000 0.700000 0.700000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 3
+
+newmtl Sun_lounger_wood
+Ns 250.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+map_Kd  -o 2 2 2 textures\WoodFine013_COL_2K.jpg
+map_Bump  -o 2 2 2 -bm 5.000000 textures\WoodFine013_NRM16_2K.tif
